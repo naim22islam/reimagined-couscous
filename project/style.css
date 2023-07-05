@@ -1,0 +1,174 @@
+*{
+box-sizing: border-box;
+}
+body{
+   
+}
+
+
+
+
+[class*=col-]{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.achievement{
+   
+    height: 600px;
+     margin: 10px 0px; 
+    border-radius: 20px;
+    background-color: darkgrey;
+     }
+
+.achievement p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 5% 0px;
+    
+}
+
+.achievement h2{
+    text-align: center;
+    color: orangered;
+    font-size: 2rem;
+}
+.dotted{
+    border: dotted 7px white;
+    width: 200px;
+    border-top: none;
+
+} 
+
+
+
+
+.contact{
+   background-color: black;
+    height: 600px;
+    margin: 10px 0px; 
+    border-radius: 20px;
+    text-align: center;
+     }
+
+
+     .contact h2{
+        text-align: center;
+        color: orangered;
+        font-size: 2rem;
+     }
+
+     .contact input{
+        width: 90%;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+        font-size: 1.1rem;
+        padding: 10px;
+        
+}
+
+
+.contact textarea{
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+.contact button{
+    font-size: 1.1rem;
+    padding: 15px;
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    background-color: blueviolet;
+}
+
+
+
+.contact-links{
+        text-align: center;
+        margin: 10px 0px;
+        text-align: center;
+        color: orangered;
+        font-size: 2rem;
+        background-color: darkolivegreen;
+        height: 600px;
+        border-radius:20px ;
+       
+}
+
+.btnn{
+    border: none;
+    border-radius: 12px;
+  
+   cursor: pointer;
+   padding: 15px;
+   margin: 10px;
+}
+
+.btnn:hover{
+    background-color: darkslategrey;
+}
+
+
+
+.achievement-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+
+/* <!-- footer start here --> */
+
+
+.dmp4{
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+    color: white
+
+}
+.footer-menu{
+  
+   
+    
+}
+
+.footer-menu a{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+.footer-menu a:hover{
+    color: yellow;
+    background-color: blueviolet;
+}
+
+.footer-desc{
+    }
+
+
+.dmp4::after{
+    display: table;
+    content: '';
+    clear: both;
+}
